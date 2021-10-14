@@ -1785,6 +1785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cena: FirstLevel
   optionsPanel: {fileID: 337720454}
+  stopGaming: GameMenu
 --- !u!4 &1614406933
 Transform:
   m_ObjectHideFlags: 0

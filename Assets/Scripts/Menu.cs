@@ -8,6 +8,7 @@ public class Menu : MonoBehaviour
 {   
     public string cena;
     public GameObject optionsPanel;
+    // public string stopGaming;
 
     public void StartGame()
     {
@@ -32,4 +33,14 @@ public class Menu : MonoBehaviour
     {
         optionsPanel.SetActive(false);
     }
+
+    /*
+    public void StopPlaying()
+    {
+        if(Input.GetButtonDown("Cancel"))
+        {
+            SceneManager.LoadScene(stopGaming);
+        }
+    }
+    */
 }
